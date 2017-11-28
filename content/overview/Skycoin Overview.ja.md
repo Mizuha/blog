@@ -1,5 +1,5 @@
 +++
-title = "Skycoin Overview"
+title = "Skycoinの概要"
 tags = [
     "Skycoin",
 ]
@@ -25,21 +25,16 @@ categories = [
 
 <!-- /MarkdownTOC -->
 
-# Skycoin Introduction
+# Skycoin とは
 
-Skycoin is based on technology
-which introduces a new cryptographic primitive
-known as a public broadcast channel. It also introduces
-a new consensus algorithm implementation, called
-Obelisk, which mitigates the commitment problems
-arising from the Proof-of-Work and mining processes
-underlying Bitcoin, thus addressing a host of security
-issues associated with the latter. Obelisk is not a
-single algorithm, but an implementation employing
-multiple techniques to deliver specific security
-guarantees.
+Skycoin（スカイコイン）は、公開ブロードキャストチャンネルと呼ばれる新しい暗号プリミティブの技術をベースにしています。
+Obelisk（オベリスク）と呼ばれる新しいコンセンサスアルゴリズムを導入することで、
+ビットコインの基盤であるプルーフ・オブ・ワーク（Proof-of-Work）とマイニングプロセスから生じるコミットメント問題を軽減し、
+後述する多数のセキュリティ問題を解決しています。
+また、Obelisk は確かなセキュリティを保証するため、単一のアルゴリズムではなく複数の技術を採用して実装されています。
 
 # Innovations And Flaws With Bitcoin And The Current Blockchain Protocols
+[](Andの区切りが内容次第で変わるので保留。)
 
 In Bitcoin, new transactions are placed into
 a block, which is appended to the blockchain. Any
@@ -88,7 +83,7 @@ affect consensus decisions because difficulty is
 something that can be independently verifed on its
 own merit.
 
-# Innovations Produced By Bitcoin
+# ビットコインによって生まれたイノベーション
 
 ### * The Blockchain
 
@@ -121,7 +116,8 @@ ordering on block trees. The public ledger
 circumvents the double spending problem
 of traditional digital cash.
 
-# Major Flaws Of Bitcoin
+# ビットコインの主な欠点
+[](もしくは「主要な欠陥」。本文の訳に合わせて微修正。)
 
 These are the issues that must be addressed in the
 development of new cryptocurrency solutions. Bitcoin
